@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Churrascômetro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1 id="h1">Churrascômetro</h1>
+
+    <p>Bem-vindo ao Churrascômetro<br/>Sua dor de cabeça para calcular a quantidade de alimentos para o churrasco acabou!</p>
+
+    <form action="">
+      <input id="inputadultos" type="number" placeholder="Quantos adultos estarão presentes?">
+      <input id="inputcriancas" type="number" value="" placeholder="E as crianças, quantas serão?">
+      <input id="inputtempo" type="number" value="" placeholder="Quanto tempo de duração (em horas)?">
+
+      <button onclick="calcularItens()">Calcular</button>
+    </form>
+
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
